@@ -49,5 +49,22 @@ import javafx.scene.text.FontWeight;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 public class Home {
-    
+     private StackPane root;
+    private BorderPane layout;
+    private HBox navBar;
+    private Scene scene;
+    private Stage mainStage;
+    private MainApp mainApp;
+    private File currentPdfFile;
+    private File currentImageFile;
+    private PDDocument document;
+    private PDFRenderer pdfRenderer;
+    private Pagination pagination;
+    private VBox notificationPanel;
+    private boolean notificationsVisible = false;
+    private List<String> notifications = new ArrayList<>();
+
+    public void start(Stage primaryStage, MainApp mainApp) {
+        this.mainStage = primaryStage;
+        this.mainApp = mainApp;
 }
