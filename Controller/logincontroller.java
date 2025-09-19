@@ -11,7 +11,7 @@ import java.net.URL;
 
 public class logincontroller  {
 
-     private static final String API_KEY = "AIzaSyCUvcZxXcvVGnCaZjKMnbiN0YR2GS1YDUM";
+     private static final String API_KEY = "my_project_Api";
 
 
     public boolean signInWithEmailAndPassword(String email, String password) {
