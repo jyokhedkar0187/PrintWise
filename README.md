@@ -10,3 +10,8 @@ PrintWise is a user-friendly platform that allows customers to upload documents,
 - 💳 Secure online payments
 - 🧾 Order history and invoice downloads
 - 👤 Admin dashboard for managing orders and inventor
+
+
+ ## 📸 App Preview
+
+![PrintWise Output Screenshot] (https://github.com/tanu2472/PrintWise/blob/main/resources/assets/images/homeSS.png)
